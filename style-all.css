@@ -1,0 +1,57 @@
+h1, h2{
+  text-align: center;
+}
+nav{
+
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 1px;
+
+}
+nav li{
+  margin: 0;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  border: 1px solid blue;
+  color: black;
+  padding: .5rem 1rem;
+  background-color: yellow;
+}
+nav a:hover{
+  background-color: red;
+}
+nav ul{
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 35px;
+}
+h3{
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+}
+figure{
+  float: right;
+}
+section{
+  clear: both;
+
+}
+img{
+  width: 500px;
+
+}
+ol{
+  font-size: 25px;
+}
