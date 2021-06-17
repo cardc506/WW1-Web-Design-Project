@@ -1,45 +1,56 @@
+body, nav a:hover{
+  background-color: RGB(53,53,53);
+  color: rgb(240, 214, 187);
+
+}
+body, nav ul{
+
+}
 h1, h2{
   text-align: center;
 }
-nav{
 
-}
-nav ul{
+ul{
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 1px;
+  justify-content: center;
+  text-align: center;
 
 }
 nav li{
   margin: 0;
+  width: 10%;
 }
+
 nav a{
   display: block;
   text-decoration: none;
-  border: 1px solid blue;
+  border: 2px solid rgb(240, 214, 187);
   color: black;
   padding: .5rem 1rem;
-  background-color: yellow;
+  background-color: rgb(160, 138, 127);
+  color: rgb(30, 4, 0);
 }
-nav a:hover{
-  background-color: red;
-}
-nav ul{
-  text-align: center;
-}
+
+
 
 h1{
   font-size: 40px;
 }
 h2{
   font-size: 35px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 h3{
   font-size: 30px;
 }
-p{
+p, ol{
   font-size: 25px;
+  font-size: 25px;
+  font-family: sans-serif;
 }
 figure{
   float: right;
@@ -52,6 +63,11 @@ img{
   width: 500px;
 
 }
-ol{
-  font-size: 25px;
+
+main{
+  width: 75%;
+
+}
+header{
+  font-family: serif;
 }
